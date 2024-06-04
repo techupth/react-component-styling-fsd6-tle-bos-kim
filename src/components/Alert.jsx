@@ -1,3 +1,11 @@
 // Start coding here
 
-function Alert() {}
+function Alert(props) {
+  return (
+    <>
+      <img src={props.src} alt={props.alt} />
+    </>
+  );
+}
+
+export default Alert;
